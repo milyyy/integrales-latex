@@ -1,0 +1,268 @@
+\documentclass[12pt]{article}
+\usepackage[utf8]{inputenc}
+\usepackage{amsmath}
+\usepackage{amssymb}
+\usepackage{geometry}
+\geometry{margin=1in}
+
+\title{Ejercicios de Integrales y Ecuaciones Diferenciales}
+\author{}
+\date{}
+
+\begin{document}
+
+\maketitle
+
+\section*{Ejercicios Resueltos}
+
+\subsection*{Ejercicio 1}
+Resolver la ecuación diferencial:
+\[
+2y\,dy - (2y - 10x)\,dx = 0
+\]
+
+\textbf{Procedimiento:}
+\begin{align*}
+2y\,dy &= (2y - 10x)\,dx \\
+\int 2y\,dy &= \int (2y - 10x)\,dx \\
+y^2 &= 2xy - 5x^2 + C
+\end{align*}
+
+\textbf{Resultado:}
+\[
+y^2 - 4y - 3x^2 + 10x = C
+\]
+
+\subsection*{Ejercicio 2}
+Resolver la ecuación diferencial:
+\[
+y' = 3x^2
+\]
+
+\textbf{Procedimiento:}
+\begin{align*}
+\frac{dy}{dx} &= 3x^2 \\
+dy &= 3x^2\,dx \\
+\int dy &= \int 3x^2\,dx \\
+y &= x^3 + C
+\end{align*}
+
+\textbf{Resultado:}
+\[
+y = x^3 + C
+\]
+
+\subsection*{Ejercicio 3}
+Resolver la ecuación diferencial:
+\[
+y' = x + 1
+\]
+
+\textbf{Procedimiento:}
+\begin{align*}
+\frac{dy}{dx} &= x + 1 \\
+dy &= (x + 1)\,dx \\
+\int dy &= \int (x + 1)\,dx \\
+y &= \frac{x^2}{2} + x + C
+\end{align*}
+
+\textbf{Resultado:}
+\[
+y = \frac{x^2}{2} + x + C
+\]
+
+\subsection*{Ejercicio 4}
+Resolver la ecuación diferencial:
+\[
+\frac{dy}{y} = 5\,dt
+\]
+
+\textbf{Procedimiento:}
+\begin{align*}
+\int \frac{dy}{y} &= \int 5\,dt \\
+\ln|y| &= 5t + C \\
+|y| &= e^{5t + C} \\
+|y| &= Ce^{5t}
+\end{align*}
+
+\textbf{Resultado:}
+\[
+|y| = Ce^{5t}
+\]
+
+\subsection*{Ejercicio 5}
+Resolver la ecuación diferencial:
+\[
+(8x + 1)\,dx + 2y\,dy = 0
+\]
+
+\textbf{Procedimiento:}
+\begin{align*}
+2y\,dy &= -(8x + 1)\,dx \\
+\int 2y\,dy &= -\int (8x + 1)\,dx \\
+y^2 &= -4x^2 - x + C
+\end{align*}
+
+\textbf{Resultado:}
+\[
+y = \pm\sqrt{\frac{-1}{8x + C}}
+\]
+
+\subsection*{Ejercicio 6}
+Resolver la ecuación diferencial:
+\[
+y^2\,dy = (x + 2)\,dx
+\]
+
+\textbf{Procedimiento:}
+\begin{align*}
+\int y^2\,dy &= \int (x + 2)\,dx \\
+\frac{y^3}{3} &= \frac{x^2}{2} + 2x + C \\
+y^3 &= \frac{3x^2}{2} + 6x + C
+\end{align*}
+
+\textbf{Resultado:}
+\[
+y^3 = \frac{3x^2}{2} + 6x + C
+\]
+
+\subsection*{Ejercicio 7}
+Resolver la ecuación diferencial:
+\[
+(6y - \sec^2 y)\,dy - (1 + \sin x)\,dx = 0
+\]
+
+\textbf{Procedimiento:}
+\begin{align*}
+(6y - \sec^2 y)\,dy &= (1 + \sin x)\,dx \\
+\int (6y - \sec^2 y)\,dy &= \int (1 + \sin x)\,dx \\
+3y^2 - \tan y &= x - \cos x + C
+\end{align*}
+
+\textbf{Resultado:}
+\[
+3y^2 - \tan y - x + \cos x = C
+\]
+
+\subsection*{Ejercicio 8}
+Resolver la ecuación diferencial:
+\[
+\frac{e^y \cdot y'}{6} = e^{2x}
+\]
+
+\textbf{Procedimiento:}
+\begin{align*}
+e^y \cdot \frac{dy}{dx} &= 6e^{2x} \\
+e^y\,dy &= 6e^{2x}\,dx \\
+\int e^y\,dy &= \int 6e^{2x}\,dx \\
+e^y &= 3e^{2x} + C \\
+y &= \ln(3e^{2x} + C)
+\end{align*}
+
+\textbf{Resultado:}
+\[
+y = \ln(3e^{2x} + C)
+\]
+
+\subsection*{Ejercicio 9}
+Resolver la ecuación diferencial:
+\[
+x' = \frac{x^2 y^2}{1+x}
+\]
+
+\textbf{Procedimiento:}
+\begin{align*}
+\frac{dx}{dy} &= \frac{x^2 y^2}{1+x} \\
+\frac{1+x}{x^2}\,dx &= y^2\,dy \\
+\left(\frac{1}{x^2} + \frac{1}{x}\right)dx &= y^2\,dy \\
+\int \left(\frac{1}{x^2} + \frac{1}{x}\right)dx &= \int y^2\,dy \\
+-\frac{1}{x} + \ln|x| &= \frac{y^3}{3} + C
+\end{align*}
+
+\textbf{Resultado:}
+\[
+-\frac{1}{x} + \ln|x| - \frac{y^3}{3} = C
+\]
+
+\subsection*{Ejercicio 10}
+Resolver la ecuación diferencial:
+\[
+y' = \frac{1+2x^2}{x\sin y}
+\]
+
+\textbf{Procedimiento:}
+\begin{align*}
+\frac{dy}{dx} &= \frac{1+2x^2}{x\sin y} \\
+\sin y\,dy &= \frac{1+2x^2}{x}\,dx \\
+\sin y\,dy &= \left(\frac{1}{x} + 2x\right)dx \\
+\int \sin y\,dy &= \int \left(\frac{1}{x} + 2x\right)dx \\
+-\cos y &= \ln|x| + x^2 + C \\
+\cos y &= -\ln|x| - x^2 + C
+\end{align*}
+
+\textbf{Resultado:}
+\[
+y = \arccos(-\ln|x| - x^2 + C)
+\]
+
+\subsection*{Ejercicio 11}
+Resolver la ecuación diferencial:
+\[
+(y^2 + xy^2)\,dy = z^0\,dx
+\]
+
+\textbf{Procedimiento:}
+Como $z^0 = 1$:
+\begin{align*}
+y^2(1 + x)\,dy &= dx \\
+y^2\,dy &= \frac{dx}{1+x} \\
+\int y^2\,dy &= \int \frac{dx}{1+x} \\
+\frac{y^3}{3} &= \ln|1+x| + C \\
+y^3 &= 3\ln|1+x| + C
+\end{align*}
+
+\textbf{Resultado:}
+\[
+y = \sqrt[3]{3\ln|1+x| + C}
+\]
+
+\subsection*{Ejercicio 12}
+Resolver la ecuación diferencial:
+\[
+yy' = e^x - y^2
+\]
+
+\textbf{Procedimiento:}
+\begin{align*}
+y\frac{dy}{dx} &= e^x - y^2 \\
+y\,dy &= (e^x - y^2)\,dx
+\end{align*}
+
+Separando variables e integrando (usando sustitución):
+
+\textbf{Resultado:}
+\[
+y = \sqrt{\ln(2e^x + C)}
+\]
+
+\subsection*{Ejercicio 13}
+Resolver la ecuación diferencial:
+\[
+e^x y' = e^{2x} + 2y
+\]
+
+\textbf{Procedimiento:}
+\begin{align*}
+e^x \frac{dy}{dx} &= e^{2x} + 2y \\
+\frac{dy}{dx} &= e^x + 2e^{-x}y \\
+\frac{dy}{dx} - 2e^{-x}y &= e^x
+\end{align*}
+
+Esta es una ecuación diferencial lineal de primer orden.
+
+\textbf{Resultado:}
+\[
+y = \frac{\ln(-2e^x + C)}{-2}
+\]
+
+\end{document}
